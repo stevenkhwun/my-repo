@@ -1,0 +1,10 @@
+---
+title: "Graphics with ggplot2"
+author: "aw"
+date: "2022/6/27"
+output: html_document
+---
+
+# Learning ggplot2
+
+We're learning ggplot2. It's going to be amazing.
