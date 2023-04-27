@@ -157,14 +157,113 @@ l <- list(x,y)
 l
 ```
 
+# Data frames in R Programming
+
+A data frame is very similar to a matrix. It’s composed of rows and columns, where the columns are considered vectors. The most relevant difference is that it’s easier to filter and select elements. We can build manually the data frame using the function `data.frame()`:
+
+```{r}
+# Data frame
+countries <- c('italy','france','germany')
+age <- 25:27
+df <- data.frame(countries,age)
+df
+```
+
+An alternative is to read the content of a file and assign it to a data frame with the function `read.table()`:
+
+```{r, eval=FALSE}
+# read.table() function
+df <- read.table('titanic.dat')
+```
+
+Like in Pandas, there are other functions to read files with different formats. For example, let’s read a csv file:
+
+```{r}
+# read.csv() function
+df <- read.csv('Data/titanic.csv')
+head(df)
+```
+
+Like in Python, R provides pre-loaded data using the function `data()`:
+
+```{r}
+# Load pre-loaded data
+data("mtcars")
+head(mtcars)
+```
+
+The function `head()` allows visualizing the first 6 rows of the mtcars dataset, which provides the data regarding fuel consumption and ten characteristics of 32 automobiles.
+
+To check all the information about the dataset, you write this line of code:
+
+```{r, eval=FALSE}
+# This code not evaluated
+help(mtcars)
+```
+
+In this way, a window with all the useful information will open. To have an overview of the dataset’s structure, the function `str()` can allow having additional insights into the data:
+
+```{r}
+# Structure of the data
+str(mtcars)
+```
+
+From the output, it’s clear that there are 32 observations and 11 variables/columns. From the second line, there is a row for each variable that shows the type and the content. We show separately the same information using:
+
+*   the function `dim()` to look at the dimensions of the data frame
+*   the function `names()` to see the names of the variables
+
+```{r}
+# Dimensions of the data frame
+dim(mtcars)
+# Names of the variables
+names(mtcars)
+```
+
+The summary statistics of the variables can be obtained through the function `summary()`.
+
+```{r}
+# Summary of the data
+summary(mtcars)
+```
+
+We can access specific columns using the expression `namedataset$namevariable`. If we want to avoid specifying every time the name of the dataset, we need the function `attach()`.
+
+```{r}
+# Using $ sign expression
+mtcars$mpg
+# Using attach() function
+attach(mtcars)
+mpg
+```
+
+In this way, we attach the data frame to the search path, allowing to refer to the columns with only their names. Once we attached the data frame and we aren’t interested anymore to use it, we can do the inverse operation using the function `detach()`.
+
+We can also try to select the first row in the data frame using this syntax:
+
+```{r}
+# Select the first row
+mtcars[1,]
+```
+
+Note that the index starts from 1, not from 0! If we want to extract the first columns, it can be done in this way:
+
+```{r}
+# Select the first column
+mtcars[,1]
+```
+
+We can also try to filter the rows using a logical expression:
+
+```{r}
+# Filter with logical expression
+mtcars[mpg>20,]
+```
+
+we can also specify the column while we filter:
 
 
-
-
-
-
-
-
-
-
-
+```{r}
+# Specify the column while filter
+mtcars[mpg>20, 'mpg']
+```
