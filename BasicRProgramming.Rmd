@@ -50,6 +50,13 @@ v1 <- c(2,4,6,8)
 v1
 ```
 
+We can access the particular element in the vector by `[index]`
+
+```{r}
+# Access a particular element
+v1[2]
+```
+
 This function simply concatenates different entities into a vector. There are other ways to create a vector, depending on the purpose. For example, we can be interested in creating a list of consecutive numbers and we don’t want to specify them manually. In this case, the syntax is `a:b` , where a and b correspond to the lower and upper extremes of this succession. The same result can be obtained using the function `seq()`
 
 
@@ -267,3 +274,244 @@ we can also specify the column while we filter:
 # Specify the column while filter
 mtcars[mpg>20, 'mpg']
 ```
+
+# `for` and `while` in R Programming
+
+The `for` loop is used to iterate elements over the sequence like in Pandas. The difference is the addition of the parenthesis and curly brackets. It has slightly different syntax:
+
+```{r, eval=FALSE}
+# for loop syntax
+for (var in seq) statement
+```
+
+```{r}
+# for loop example
+for (i in 1:4)
+print(i)     # or {print(i)}
+```
+
+`while` executes a statement or more statements as long as the condition is true
+
+```{r, eval=FALSE}
+# while loop syntax
+while (cond) statement
+```
+
+```{r}
+# while loop example
+i <- 1
+while (i < 6)
+  {print(i)
+   i <- i+1}  # The curly brackets are needed
+```
+
+# `if` statement in R Programming
+
+The syntax of the if statement is similar to the one in Python. As before, the difference is the addition of the parenthesis and curly brackets.
+
+```{r, eval=FALSE}
+# if statement syntax
+if (cond1) {statement1} else {statement2}
+```
+
+and 
+
+```{r, eval=FALSE}
+# if statement syntax
+if (cond1) {statement1} else if {statement2} else {statement3}
+```
+
+```{r}
+# if statement example
+for (i in 1:4)
+{if (i%%2==0) print('even') else print('odd')}
+```
+
+If we want to compare two numbers and see which number is greater of the other, we can do it in this way:
+
+```{r}
+# if statement example
+a <- 10
+b <- 2
+if (b>a){
+  print('b is greater than a')
+}else if (a==b){
+  print('a and b are equal')
+}else{
+  print('a is greater than b')
+}
+```
+
+There is also a vectorized version of the if statement, the function **`ifelse(condition,a,b)`** . It’s the equivalent of writing:
+
+```{r, eval=FALSE}
+# ifelse() function syntax
+if condition {a} else {b}
+```
+
+For example, let’s check if a number is positive:
+
+```{r}
+# ifelse() function
+x <- 3
+ifelse(x>=0, 'positive', 'negative')
+```
+
+# Function in R Programming
+
+The function is a block of code used to perform an action. It runs only when the function is called. It usually needs parameters, that need to be passed, and returns an output as result. It’s defined with this syntax in R:
+
+```{r, eval=FALSE}
+# function  syntax
+namefunction <- function(par_1,par_2,...)
+  {expression(s)}
+```
+
+Let’s create a function to calculate the average of a vector:
+
+```{r}
+# function example
+average <- function(x)
+{ val = 0
+  for (i in x){val=val+i}
+  av = val/length(x)
+  av
+}
+
+# Execute the function
+average(1:3)
+```
+
+# Probability distributions in R Programming
+
+A characteristic of R is that it provides functions to calculate the density, distribution function, quantile function and random generation for different probability distributions. For example, let’s consider the normal distribution:
+
+*   **`dnorm(x)`** calculates the value of the density in x
+*   **`pnorm(x)`** calculates the value of the cumulative distribution function in x
+*   **`qnorm(p)`** calculates the quantile of level p
+*   **`rnorm(n)`** generates a sample from a standard normal distribution of n dimension
+
+Now, I show a table with the most known distributions available in R:
+
+|**R**|Distribution|Parameters|Default|
+|:---|:---|:---|:---:|
+|**norm**|normal|mean, sd|0, 1|
+|**t**|Student's t|df|0, 1|
+|**chisq**|chi-squared|df|-|
+|**f**|F|df1, df2|-,-|
+|**unif**|uniform|min, max|0, 1|
+|**exp**|exponential|rate|1|
+|**gamma**|gamma|shape, scale|-, 1|
+|**binom**|binomial|size, prob|-,-|
+|**pois**|Poisson|lambda|-|
+
+# Plotting commands in R Programming
+
+The graphs are very important to get insights into the data. R provides plotting commands to display a huge variety of plots:
+
+*   **`plot(x)`** is the most common function used to produce scatterplots
+*   **`pairs(X)`** is used to display multivariate data. It produces a pairwise scatterplot matrix of the variables contained in X.
+*   **`hist(x)`** is used to display the histogram
+*   **`box(x)`** is used to display the boxplot
+*   **`qqplot(x)`** is used to produce the Q-Q plot, useful to check if the distribution analyzed is normal or not.
+*   **`abline(h=y)`** and **`abline(v=x)`** are the most used function to add horizontal and vertical lines in the already built plot
+*   **`curve(expr,add=FALSE)`** is used to display a curve, that can be added or not to an already existing graph.
+*   **`par(mfrow=(r,c))`** is used put multiple graphs in a single plot. The **`mfrow`** parameter specifies the number of rows and the number of columns.
+*   **`legend(x,y,legend,...)`** is used to specify the legend in the plot at the specified position (x,y)
+
+For example, we can generate a sample with 200 units from a normal distribution. Let’s suppose we don’t know the distribution and we want to display the histogram and the boxplot:
+
+```{r}
+# Plotting example
+x <- rnorm(200)
+par(mfrow=c(1,2))
+hist(x,ylim=c(0,0.5),prob=TRUE)
+curve(dnorm(x),add=TRUE)
+boxplot(x)
+```
+
+# Linear Regression in R
+
+Let’s take again the mtcars dataset and let’s suppose that we want to perform the linear regression to see the estimated coefficients. As the first trial, I include only one dependent variable, the number of cylinders in the model, which is called linear regression. The syntax of the formula within the function lm is response~terms, where the response is the response variable, while terms refer to one or more dependent variables included in the model.
+
+```{r, message=FALSE}
+# Load the data (the result message has been suppressed)
+data(mtcars)
+attach(mtcars)
+```
+
+```{r}
+# Run the regression
+lm1 <- lm(mpg~cyl)
+lm1$coefficients
+```
+
+Looking at the parameter of cyl, we can understand that there is negative relationship between the number of cylinders and mpg. To better understand, we can visualize the scatterplot between the two features:
+
+```{r}
+# Scatterplot of mpg against cyl
+plot(cyl, mpg, main="Scatterplot of mpg against cyl",
+   xlab="Number of cylinders", ylab="Miles Per Gallon ", pch=19)
+```
+
+It seems that increasing the number of cylinders lead to a decrease miles/(US) gallon. The most relevant results of the linear model are provided using the function **`summary()`**.
+
+```{r}
+# summary() function
+summary(lm1)
+```
+
+It’s the summary of the results obtained performing the linear regression model on the data. At the top of the output, we can see the variables included in the model. There are some statistics (minimum, first and third quartiles, median, maximum) regarding the residues of the estimated model. After, there is a table containing the estimated coefficients of the model, where each row corresponds to a coefficient. Each row has the following information:
+
+*   the value of the estimated coefficient
+*   the standard Error
+*   the observed *t*-value
+*   the observed level of significance: in case it’s smaller than 0.05, the parameter is significant and, then, there is a linear relationship between that variable and the response variable.
+
+We can see that both coefficients are significant with *p*-value < 0.05 and $R^2$ is high, near 1, considering that we only included a variable. `cyl`’s coefficient is negative and, then, indicates the decrease of value for each increase of one unit in `mpg`.
+
+We can also try to include another predictor and include the interaction term between `cyl` and `disp`:
+
+```{r}
+# Regression with additional term and interaction
+lm2 <- lm(mpg ~ cyl*disp)
+summary(lm2)
+```
+
+The following code will give the same result:
+
+```{r, eval=FALSE}
+# Alternate coding method
+lm3 <- lm(mpg ~ cyl + disp + cyl:disp)
+summary(lm3)
+```
+
+In the code, I show different syntax formats, that allow reaching the same results. Putting the $*$ between the two features enables to write less code. As before, all the coefficients are significant. Now, the $R^2$ is higher, equal to 0.8. To evaluate how well the model explains well the behaviour of the data, an efficient way is to display the residuals versus the fitted values, where the residuals are the differences between the true values and the fitted values.
+
+```{r}
+plot(lm2, which=1)
+```
+
+You can read the documentation of the function `plot.lm` which is the plot function dedicated to `lm`. You can select the graphs that you want to display with argument **`which`**. There is 6 graphs that you can choose. For example, for qqplot & residual plot:
+
+```{r,eval=FALSE}
+# For qqplot and residual plot (The plots suppressed)
+plot(lm2, which=c(2,1))
+```
+
+The red curve corresponds to the smooth fit to the residuals and has a U-shape, indicating that there are non-linear associations in the data.
+
+After this step, we can finally predict mpg on new data using the fitted model:
+
+```{r}
+# Prediction for new data
+newdata <- data.frame(mpg=20,cyl=8,disp=150,hp=100,drat=3,wt=2.4,qsec=17,vs=1,am=1,gear=4,carb=2)
+predict(lm2,newdata)
+```
+
+# Remarks
+
+This is document is based on the article [Master the basics of R Programming](https://www.analyticsvidhya.com/blog/2021/10/master-the-basics-of-r-programming/) by Eugenia Anello (Published on October 12, 2021 and last modified on November 12, 2021)
+
+
+
