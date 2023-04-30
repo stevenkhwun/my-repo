@@ -1,0 +1,93 @@
+---
+title: My Python Notes
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This file contain my daily record of what Python techniques learnt.
+
+
+# 2023.04.30
+
+First time work on the [Google for Education: Python](https://developers.google.com/edu/python/).
+
+The resources have been download to the "C:\\Users\\andyw\\google-python-exercises" at the ASUS Zenbook.
+
+There was some mistake in the `hello.py` file downloaded. Parentheses are missed. After adding them the code worked.
+
+The following codes can be executed in ASUS Zenbook.
+
+## Command line, Python interpreter and IPython
+
+There should be some difference between running **Python interpreter** interactively and running Python programme file at the **command line**.
+
+### Command line
+
+Enter **`cmd`** at the Start menu to enter the terminal.
+
+At the **command line**, you type **`python filename.py`** to run the Python programme file **`filename.py`**.
+
+For example, if you are at the directory which it contain the Python file, you can type the following to execute the file.
+
+```Python
+C:\Users\andyw\google-python-exercises>python hello.py
+Hello World
+```
+
+Or you can enter the full path of the Python file if you are not at the directory which contain the file.
+
+```Python
+C:\Users\andyw>python C:/Users/andyw/google-python-exercises/hello.py
+Hello World
+```
+
+### Pyton interpreter
+
+To run the **Python interpreter** interactively, select the Run... command from the Start menu, and type "Python".
+
+
+When you type **`python`** or **`py`** at the command line, you enter the **Python interpreter** and can run Python code directly by entering code at the prompt.
+
+For example:
+
+```Python
+>>> print("Hello World")
+Hello World
+```
+
+On Windows, use **`Ctrl-Z`** and then press **`Enter`** to exit (on all other operating systems it's **`Ctrl-D`** to exit).
+
+### IPython
+
+You type **`ipython`** at the start menu or at the command line launch the IPython shell.
+
+```Python
+C:\Users\andyw>ipython
+... some message ...
+
+In [1]:
+```
+You can execute arbitrary Python statements by typing them and pressing Return (or Enter).
+
+```Python
+In [1]: a = 5
+
+In [2]: b = 9
+
+In [3]: a + b
+Out[3]: 14
+```
+
+You can execute a Python programme file by **`%run`** command and entering the full path of the Python programme file.
+
+```Python
+In [4]: %run C:/Users/andyw/google-python-exercises/hello.py
+Hello World
+```
