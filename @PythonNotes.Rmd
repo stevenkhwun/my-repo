@@ -48,6 +48,8 @@ C:\Users\andyw>python C:/Users/andyw/google-python-exercises/hello.py
 Hello World
 ```
 
+You can execute Python programme file at the command line but you cannot run Python code directly at the command line.
+
 ### Pyton interpreter
 
 To run the **Python interpreter** interactively, select the Run... command from the Start menu, and type "Python".
@@ -91,3 +93,67 @@ You can execute a Python programme file by **`%run`** command and entering the f
 In [4]: %run C:/Users/andyw/google-python-exercises/hello.py
 Hello World
 ```
+
+# 2023.05.01
+
+## Launch Jupyter Notebook and JupyterLab
+
+Type **`jupyter notebook`** or **`jupyter lab`** at the command line. These work on both ASUS ZenBook and Dell desktop.
+
+```
+# Launch Jupyter Notebook
+C:\Users\andyw>jupyter notebook
+
+# Launch JupyterLab
+C:\Users\andyw>jupyter lab
+```
+
+## Set up GitHub linkage with the JupyterLab
+
+In order to enable JupyterLab to interact with GitHub account, you have to install **git extension** in JupyterLab.
+
+To install git extension, you should follow the steps below:
+
+1. You have to install JupyterLab.
+2. You have to install **git**. See [https://github.com/git-guides/install-git](https://github.com/git-guides/install-git)
+3. To install git extension perform the following steps, with pip at the command line:
+   ```
+   C:\Users\andyw>pip install --upgrade jupyterlab jupyterlab-git
+   ```
+   (See [https://github.com/jupyterlab/jupyterlab-git](https://github.com/jupyterlab/jupyterl    ab-git) for reference.)
+
+
+## Connection to GitHub using JupyterLab
+
+Only some function is working in the Dell desktop. The ASUS ZenBook has not yet set up link with the GitHub account.
+
+Everytime you use JupyterLab, you better synchronize the GitHub account repository by go to the tap `Git` and select `Pull from Remote` first.
+
+### Add a new notebook
+
+1. Create a new notebook
+2. On the left panel under the `GitHub` icon and under `Untracked`, select the new notebook and hit `+` (i.e. to change to track this file)
+3. Under `Staged` the number should become from 0 to 1.
+4. At the lower part of the left panel at come comment in the box provided and then hit `COMMIT`
+5. At the tap `Git` on the top, select `Push to Remote`
+
+### Existing file amended
+
+1. On the left panel under the `GitHub` icon and under `Changed`, hit `+` (i.e. to stage all changes)
+2. At the lower part of the left panel at come comment in the box provided and then hit `COMMIT`
+3. At the tap `Git` on the top, select `Push to Remote`
+
+### Deleting an existing file
+
+1. On the left panel under the `File Folder` right click the file you want to delete and then select `Delete`
+2. On the left panel under the `GitHub` icon and under `Changed`, hit `+` (i.e. to stage all changes)
+3. At the lower part of the left panel at come comment in the box provided and then hit `COMMIT`
+4. At the tap `Git` on the top, select `Push to Remote`
+
+### Useful reference
+
+You may find following tutorial on youtube useful: 
+
+1. [Using the JupyterLab Git Extension in a Data Science Notebook Session](https://www.youtube.com/watch?v=ncmD9B-fddg)
+2. [Introduction to JupyterLab](https://www.youtube.com/watch?v=sfBg4EfJFpw)
+

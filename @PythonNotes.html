@@ -192,6 +192,7 @@ Hello World</code></pre>
 <p>Or you can enter the full path of the Python file if you are not at the directory which contain the file.</p>
 <pre class="python"><code>C:\Users\andyw&gt;python C:/Users/andyw/google-python-exercises/hello.py
 Hello World</code></pre>
+<p>You can execute Python programme file at the command line but you cannot run Python code directly at the command line.</p>
 </div>
 <div id="pyton-interpreter" class="section level3" number="1.1.2">
 <h3 number="1.1.2"><span class="header-section-number">1.1.2</span> Pyton interpreter</h3>
@@ -219,6 +220,70 @@ Out[3]: 14</code></pre>
 <p>You can execute a Python programme file by <strong><code>%run</code></strong> command and entering the full path of the Python programme file.</p>
 <pre class="python"><code>In [4]: %run C:/Users/andyw/google-python-exercises/hello.py
 Hello World</code></pre>
+</div>
+</div>
+</div>
+<div id="section-1" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> 2023.05.01</h1>
+<div id="launch-jupyter-notebook-and-jupyterlab" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> Launch Jupyter Notebook and JupyterLab</h2>
+<p>Type <strong><code>jupyter notebook</code></strong> or <strong><code>jupyter lab</code></strong> at the command line. These work on both ASUS ZenBook and Dell desktop.</p>
+<pre><code># Launch Jupyter Notebook
+C:\Users\andyw&gt;jupyter notebook
+
+# Launch JupyterLab
+C:\Users\andyw&gt;jupyter lab</code></pre>
+</div>
+<div id="set-up-github-linkage-with-the-jupyterlab" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> Set up GitHub linkage with the JupyterLab</h2>
+<p>In order to enable JupyterLab to interact with GitHub account, you have to install <strong>git extension</strong> in JupyterLab.</p>
+<p>To install git extension, you should follow the steps below:</p>
+<ol style="list-style-type: decimal">
+<li><p>You have to install JupyterLab.</p></li>
+<li><p>You have to install <strong>git</strong>. See <a href="https://github.com/git-guides/install-git">https://github.com/git-guides/install-git</a></p></li>
+<li><p>To install git extension perform the following steps, with pip at the command line:</p>
+<pre><code>C:\Users\andyw&gt;pip install --upgrade jupyterlab jupyterlab-git</code></pre>
+<p>(See <a href="https://github.com/jupyterlab/jupyterl%20ab-git">https://github.com/jupyterlab/jupyterlab-git</a> for reference.)</p></li>
+</ol>
+</div>
+<div id="connection-to-github-using-jupyterlab" class="section level2" number="2.3">
+<h2 number="2.3"><span class="header-section-number">2.3</span> Connection to GitHub using JupyterLab</h2>
+<p>Only some function is working in the Dell desktop. The ASUS ZenBook has not yet set up link with the GitHub account.</p>
+<p>Everytime you use JupyterLab, you better synchronize the GitHub account repository by go to the tap <code>Git</code> and select <code>Pull from Remote</code> first.</p>
+<div id="add-a-new-notebook" class="section level3" number="2.3.1">
+<h3 number="2.3.1"><span class="header-section-number">2.3.1</span> Add a new notebook</h3>
+<ol style="list-style-type: decimal">
+<li>Create a new notebook</li>
+<li>On the left panel under the <code>GitHub</code> icon and under <code>Untracked</code>, select the new notebook and hit <code>+</code> (i.e. to change to track this file)</li>
+<li>Under <code>Staged</code> the number should become from 0 to 1.</li>
+<li>At the lower part of the left panel at come comment in the box provided and then hit <code>COMMIT</code></li>
+<li>At the tap <code>Git</code> on the top, select <code>Push to Remote</code></li>
+</ol>
+</div>
+<div id="existing-file-amended" class="section level3" number="2.3.2">
+<h3 number="2.3.2"><span class="header-section-number">2.3.2</span> Existing file amended</h3>
+<ol style="list-style-type: decimal">
+<li>On the left panel under the <code>GitHub</code> icon and under <code>Changed</code>, hit <code>+</code> (i.e. to stage all changes)</li>
+<li>At the lower part of the left panel at come comment in the box provided and then hit <code>COMMIT</code></li>
+<li>At the tap <code>Git</code> on the top, select <code>Push to Remote</code></li>
+</ol>
+</div>
+<div id="deleting-an-existing-file" class="section level3" number="2.3.3">
+<h3 number="2.3.3"><span class="header-section-number">2.3.3</span> Deleting an existing file</h3>
+<ol style="list-style-type: decimal">
+<li>On the left panel under the <code>File Folder</code> right click the file you want to delete and then select <code>Delete</code></li>
+<li>On the left panel under the <code>GitHub</code> icon and under <code>Changed</code>, hit <code>+</code> (i.e. to stage all changes)</li>
+<li>At the lower part of the left panel at come comment in the box provided and then hit <code>COMMIT</code></li>
+<li>At the tap <code>Git</code> on the top, select <code>Push to Remote</code></li>
+</ol>
+</div>
+<div id="useful-reference" class="section level3" number="2.3.4">
+<h3 number="2.3.4"><span class="header-section-number">2.3.4</span> Useful reference</h3>
+<p>You may find following tutorial on youtube useful:</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://www.youtube.com/watch?v=ncmD9B-fddg">Using the JupyterLab Git Extension in a Data Science Notebook Session</a></li>
+<li><a href="https://www.youtube.com/watch?v=sfBg4EfJFpw">Introduction to JupyterLab</a></li>
+</ol>
 </div>
 </div>
 </div>
