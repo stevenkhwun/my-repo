@@ -1,0 +1,25 @@
+---
+title: "Example with Code Folding 2"
+author: "AW"
+date: "2023/5/1"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    code_folding: hide
+---
+
+# Introduction
+
+This is the introduction.
+
+```{r}
+x <- 2
+y <- 3
+x + y
+```
+
+
+# Preliminary findings
+
+This is the preliminary findings.

@@ -1,10 +1,13 @@
 ---
 title: My Python Notes
 output:
-  pdf_document: default
-  word_document: default
   html_document:
+    toc: true
     number_sections: true
+    toc_float: true
+    theme: cerulean
+  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -156,4 +159,13 @@ You may find following tutorial on youtube useful:
 
 1. [Using the JupyterLab Git Extension in a Data Science Notebook Session](https://www.youtube.com/watch?v=ncmD9B-fddg)
 2. [Introduction to JupyterLab](https://www.youtube.com/watch?v=sfBg4EfJFpw)
+
+## YAML Headers
+
+Please refer to the following link for introduction to the YAML Headers:
+
+[https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html]
+
+Some templates have been prepared in the `YAML Headers` sub-folder.
+
 

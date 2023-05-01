@@ -1,0 +1,21 @@
+---
+title: "Example - Table of Contents"
+author: "AW"
+date: "2023/5/1"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Introduction
+
+This is the introduction.
+
+# Preliminary findings
+
+This is the preliminary findings.
+
+The following link provides examples of some of the available R Markdown themes: [https://www.datadreaming.org/post/r-markdown-theme-gallery/](https://www.datadreaming.org/post/r-markdown-theme-gallery/)
