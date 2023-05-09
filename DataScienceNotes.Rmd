@@ -1,5 +1,5 @@
 ---
-title: My Python Notes
+title: Notes on Data Science
 output:
   html_document:
     toc: true
@@ -14,24 +14,25 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This file contain my daily record of what Python techniques learnt.
+This file contain my notes on various data science techniques.
 
 
-# 2023.04.30
+# Google for Education
 
-First time work on the [Google for Education: Python](https://developers.google.com/edu/python/).
+[Google for Education: Python](https://developers.google.com/edu/python/) is a website providing basic training on Python. I first worked on it on 30 April 2023.
 
 The resources have been download to the "C:\\Users\\andyw\\google-python-exercises" at the ASUS Zenbook.
 
 There was some mistake in the `hello.py` file downloaded. Parentheses are missed. After adding them the code worked.
 
-The following codes can be executed in ASUS Zenbook.
 
-## Command line, Python interpreter and IPython
+# Command line, Python interpreter and IPython
 
-There should be some difference between running **Python interpreter** interactively and running Python programme file at the **command line**.
+This topic is based on Section "Python Setup" in [Google for Education: Python](https://developers.google.com/edu/python/), which I worked on it on 30 April 2023.
 
-### Command line
+There should be some difference between running Python program file at **command line** and **run Python code interactively at Python interpreter**.
+
+## Command line
 
 Enter **`cmd`** at the Start menu to enter the terminal.
 
@@ -53,9 +54,9 @@ Hello World
 
 You can execute Python programme file at the command line but you cannot run Python code directly at the command line.
 
-### Pyton interpreter
+## Pyton interpreter
 
-To run the **Python interpreter** interactively, select the Run... command from the Start menu, and type "Python".
+To run **Python code interactively** at a Python interpreter, select the Run... command from the Start menu, and type "Python".
 
 
 When you type **`python`** or **`py`** at the command line, you enter the **Python interpreter** and can run Python code directly by entering code at the prompt.
@@ -97,7 +98,7 @@ In [4]: %run C:/Users/andyw/google-python-exercises/hello.py
 Hello World
 ```
 
-# 2023.05.01
+# JupyterLab and Github
 
 ## Launch Jupyter Notebook and JupyterLab
 
@@ -160,7 +161,7 @@ You may find following tutorial on youtube useful:
 1. [Using the JupyterLab Git Extension in a Data Science Notebook Session](https://www.youtube.com/watch?v=ncmD9B-fddg)
 2. [Introduction to JupyterLab](https://www.youtube.com/watch?v=sfBg4EfJFpw)
 
-## YAML Headers
+# YAML Headers
 
 Please refer to the following link for introduction to the YAML Headers:
 
