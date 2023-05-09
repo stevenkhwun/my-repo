@@ -70,7 +70,7 @@ Hello World
 
 On Windows, use **`Ctrl-Z`** and then press **`Enter`** to exit (on all other operating systems it's **`Ctrl-D`** to exit).
 
-### IPython
+## IPython
 
 You type **`ipython`** at the start menu or at the command line launch the IPython shell.
 
