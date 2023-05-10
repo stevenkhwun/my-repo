@@ -165,7 +165,7 @@ You may find following tutorial on youtube useful:
 
 Please refer to the following link for introduction to the YAML Headers:
 
-[https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html]
+https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html
 
 Some templates have been prepared in the `YAML Headers` sub-folder.
 
