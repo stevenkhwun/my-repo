@@ -54,7 +54,7 @@ Hello World
 
 You can execute Python programme file at the command line but you cannot run Python code directly at the command line.
 
-## Pyton interpreter
+## Python interpreter
 
 To run **Python code interactively** at a Python interpreter, select the Run... command from the Start menu, and type "Python".
 
