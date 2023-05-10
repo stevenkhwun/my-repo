@@ -54,7 +54,7 @@ Hello World
 
 You can execute Python programme file at the command line but you cannot run Python code directly at the command line.
 
-## Pyton interpreter
+## Python interpreter
 
 To run **Python code interactively** at a Python interpreter, select the Run... command from the Start menu, and type "Python".
 
@@ -70,7 +70,7 @@ Hello World
 
 On Windows, use **`Ctrl-Z`** and then press **`Enter`** to exit (on all other operating systems it's **`Ctrl-D`** to exit).
 
-### IPython
+## IPython
 
 You type **`ipython`** at the start menu or at the command line launch the IPython shell.
 
