@@ -1,13 +1,13 @@
 ---
 title: Notes on Data Science
 output:
+  pdf_document: default
+  word_document: default
   html_document:
     toc: true
     number_sections: true
     toc_float: true
     theme: cerulean
-  word_document: default
-  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
