@@ -1,0 +1,42 @@
+---
+title: Key Terms in Official Statistics
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+    theme: cerulean
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This page holds a list of key official statistics terms and their definitions.
+
+# Diffusion indices (動向指數)
+
+## What Is a Diffusion Index?
+A diffusion index is a statistic derived from survey responses. Consider a survey panel where participants answer multiple choice questions about an economic series of interest. For example, in the Richmond Fed monthly business surveys, manufacturing- and service-sector firms are asked to respond to the statement "Compared to the previous month, the number of employees at your firm has..." with "decreased," "stayed the same" or "increased."
+
+In this case, the diffusion index is the share of respondents who said that an indicator improved (here, employment increased) minus the share of respondents who said that an indicator deteriorated (here, employment decreased).
+
+For example, out of 132 respondents, 63 reported that employment increased, 25 reported that it decreased, and 44 reported that it stayed the same. Thus, the diffusion index would be 0.29 (63/132 – 25/132). The Richmond Fed then multiplies the reading by 100 and reports the employment diffusion index as 29. A value above 0 is interpreted as an expansion in employment, and a value below 0 is interpreted as a contraction.
+
+## How Should a Diffusion Index Be Used?
+A diffusion index provides information on the extensive margin of change (the number of firms that reported a change) but not on the intensive margin of change (the amount of that change). In comparison, employment data from the Bureau of Labor Statistics (BLS) reflects changes in both the intensive and extensive margins. For example, a 200,000-job gain reported by the BLS is a net change in employment, reflecting the net employment change at each individual firm (the intensive margin) across all firms (the extensive margin).
+
+## Why Use a Diffusion Index?
+Diffusion indexes are a useful way to summarize economic information from surveys because they are easy to understand and correlate well with economic activity over time. To use diffusion indexes most effectively as a measure of change, however, it is important that the extensive margin of the indicator in question explains more of the change in that indicator than the intensive margin. 
+
+## Hong Kong examples
+Business sentiment statistics in Hong Kong, e.g. Quarterly Business Tendency Survey, Monthly Survey on the Business Situation of SMEs.
+
+## References
+Website: [Federal Reserve Bank of Richmond](https://www.richmondfed.org/publications/research/economic_brief/2022/eb_22-22)
+
+Journal article: [The Information Content and Statistical Properties of Diffusion Indexes](References/ijcb20q3a2.pdf)
+
+
+# Section 2
