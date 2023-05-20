@@ -36,7 +36,13 @@ Business sentiment statistics in Hong Kong, e.g. Quarterly Business Tendency Sur
 ## References
 Website: [Federal Reserve Bank of Richmond](https://www.richmondfed.org/publications/research/economic_brief/2022/eb_22-22)
 
-Journal article: [The Information Content and Statistical Properties of Diffusion Indexes](References/ijcb20q3a2.pdf)
+Journal article:
+
+*   [The Information Content and Statistical Properties of Diffusion Indexes](References/DiffusionIndices/ijcb20q3a2.pdf)
+*   [Macroeconomic Forecasting Using Diffusion Indexes](References/DiffusionIndices/macroeconomic_forecasting_using_diffusion_indexes.pdf)
+
+
+
 
 
 # Section 2
