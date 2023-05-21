@@ -59,12 +59,43 @@ Underlying consumer price inflation is calculated by netting out the effects of 
 
 (Sources: C&SD publications)
 
+### CPI and GDP deflator
+
+The implicit price deflators of GDP and its main expenditure components are derived by
+dividing GDP at current prices byponding chained-dollar figures. The rate of
+change in the GDP deflator may differ substantially from that in the Composite CPI over
+the same time span. The Composite CPI covers consumer price inflation in particular.
+Yet the GDP deflator is a much broader measure of inflation for the entire economy, and
+takes into account all the price changes related to consumption, investment, exports and
+imports. Also, the rate of change in the GDP deflator may differ appreciably from that
+in the total final demand deflator, depending on the movement in the prices of final
+demand and imports. Likewise, the rate of change in the GDP deflator may differ
+appreciably from that in the domestic demand deflator, depending on the movement in
+the prices of imports and exports.
+
+計算本地生產總值及其主要開支組成項目的內含平減物價指數的方法，是把按當時價格計算的本地生產總值除以相應的環比物量估計。同一時段的本地生產總值平減物價指數的變動率與綜合消費物價指數的變動率差別可能很大。綜合消費物價指數主要涵蓋消費物價通脹，而本地生產總值平減物價指數是從更廣泛層面量度整個經濟體的通脹，當中計及消費、投資、進出口方面的所有價格變動。此外，本地生產總值平減物價指數的變動率或會與最終需求總額平減物價指數的變動率有顯著差距，差異視乎最終需求和進口價格走勢而定。同樣， 本地生產總值平減物價指數的變動率或會與內部需求平減物價指數的變動率有顯著差距， 差異視乎進口及出口價格的走勢而定。
+
+
 ### CPI and cost of living index
 
 The CPI is sometimes loosely taken as a **cost-of-living index**. Strictly speaking, there is a distinction between these two types of indices. While the CPI relates to the price changes of a fixed basket of consumer goods and services, a cost of living index measures the change in the cost of maintaining a given standard of living, or level of utility. It is very difficult to produce a valid cost-of-living index which would need to take account of, among other things, changes in standard of living and the substitutions that consumers make in their purchases in endeavouring to maintain their standard of living.
+
+## Producer prices
+
+### Producer Price Incices
+The Producer Price Indices are designed to reflect changes in the prices of goods and
+services received by local producers. Producer prices refer to the transacted prices, net
+of any discounts or rebates allowed to the buyers. Transportation and other incidental
+charges are not included.
+
+生產物價指數專為反映本地製造商所收取的產品及服務價格的變動而編訂。生產物價是指實際交易價格， 但扣除給予買方的任何折價或回扣， 運輸及其他雜項費用不包括在內。
+
+(Source: C&SD publications)
 
 
 # External trade
 
 ## Terms of trade
-Terms of trade are defined as the ratio between the index of export prices and the index of import prices. If the export prices increase more than the import prices, a country has a positive terms of trade, as for the same amount of exports, it can purchase more imports. (Source: )
+Terms of trade are defined as the ratio between the index of export prices and the index of import prices. If the export prices increase more than the import prices, a country has a positive terms of trade, as for the same amount of exports, it can purchase more imports. (Source: [OECD](https://data.oecd.org/trade/terms-of-trade.htm))
+
+The terms of trade is defined as the ratio of the prices of total exports to the prices of total imports. (Source: C&SD publications)
