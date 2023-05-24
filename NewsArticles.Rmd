@@ -1,0 +1,197 @@
+---
+title: News articles
+output:
+  html_document:
+    toc: true
+    number_sections: false
+    toc_float: true
+    theme: cerulean
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# $2 fare subsidy
+
+## **Rhetoric rises on $2 fare subsidy**
+
+Mary Ma
+
+UPDATED: 12 MAY 2023 12:00 AM
+
+Hmm, the government seems to be raising its rhetoric on the HK$2 transport fare scheme that is without doubt the most popular program it has offered to date.
+
+If Financial Secretary Paul Chan Mo-po’s hands were not tied by the dilemma of a structural fiscal deficit, his colleagues including – Executive Council convenor Regina Ip Lau Suk-yee and lawmaker Chan Kin-por – would have likely avoided hinting at an extremely unpopular prospect to scale back, or even ditch, the subsidy scheme.
+
+Times have definitely changed.
+
+When Carrie Lam Cheng Yuet-ngor reversed her usual fiscal prudence to lower the age threshold of the scheme from 65 to 60 in her last year as chief executive, the announcement was made after it was endorsed by Exco of which Ip then was also a member.
+
+It was also applauded by lawmakers in general despite concerns that the HK$2 scheme could be open to abuse.
+
+As an old saying goes, there is nothing to fear if one’s pocket is deep. An estimated extra cost of HK$1.7 billion a year to lower the age of eligibility to 60 was not a concern for policymakers at that time.
+
+Before us is a less friendly environment. First, the government is heading for another year of fiscal deficit. Second, the prospect does not appear to be particularly bright for a number of revenue streams, including land sales and salary tax.
+
+It will tighten Paul Chan’s hands further if revenues turn out to be less than predicted at the end of the current fiscal year.
+
+The elevated rhetoric targeting a popular government initiative could be evidence of mounting concerns within the administration. The financial secretary is under pressure to tighten the purse strings by looking at every possible saving.
+
+As Chan Kin-por questioned in the Legislative Council about the abuse situation of the scheme, the question may also be viewed as a curtain raiser for what could be coming from the government.
+
+Abuse is a concern, but officials are more worried about the overall financial implication of the scheme. Like corruption, “abuse” is deemed immoral and can provide the government an entry point to make changes to the program.
+
+Looking forward, what could happen to the HK$2 scheme?
+
+In the best-case scenario, it will be modified to include additional limits on its use.
+
+In the worst-case scenario, it may be scrapped to save the government billions of dollars a year – but this is least likely in light of the scheme’s huge popularity.
+
+According to a Legco paper in 2021, a degree of abuse was anticipated and the question was about how to keep it at a low level.
+
+At that time, a survey found that some passengers hopped on long-haul buses for short journeys, therefore costing taxpayers more to subsidize these short journeys.
+
+It was estimated that this would cost the scheme HK$21 million to HK$27 million extra a year due to passengers hopping on for convenience.
+
+This is unwarranted wastage, but it accounts for a tiny fraction of the scheme’s total budget.
+
+It will not surprise me if the government tightens the use of JoyYou cards.
+
+## **$2 fare scheme to be reviewed**
+
+Charlie Chun
+
+UPDATED: 24 MAY 2023 12:00 AM
+
+The government will review whether the HK$2 concessionary transport scheme for senior citizens is being abused, says Chief Executive John Lee Ka-chiu.
+
+
+It comes after former transport minister Anthony Cheung Bing-leung and some lawmakers said the government should review the scheme, which was extended to people aged 60 to 64 last year.
+
+
+The HK$2 concession was rolled out to promote a barrier-free community so that the elderly can travel around the city at a low price instead of being homebound.
+
+
+Cheung has said the scheme will increase the burden on public finance in the long run since the government pays for the price difference, which will continue to rise as prices increase.
+
+
+He suggested the government make slight adjustments on welfare policies, such as raising the HK$2 fare to HK$3.
+
+
+Lee said he understands the concerns, and the government will consider different opinions.
+
+
+“I think it’s important to see whether people have abused the scheme as we saw some unusual situations from the figures,” Lee said.
+
+
+He added that authorities will investigate the “spending patterns” of passengers and cases of abuse will be handled strictly.
+
+
+Lee said it is important to prevent abusive use of the concessionary fare and relevant departments should take action to ensure it is used appropriately.
+
+
+Meanwhile, Lee, when asked if authorities will set a deadline on deciding whether to prosecute arrested protesters during the 2019 social unrest, he said it is impractical for police to set a timetable.
+
+
+“Setting a timetable does not abide by the rule of law. I am confident police will deal with the cases accurately.”
+
+
+Lawmaker Gary Zhang Xinyu said he has received some 170 requests for assistance regarding mainland travel permits due to their involvement in the social unrest.
+
+
+Around 150 of them, who were involved in illegal assembly and misconduct in public spaces, were notified by police that they will not be prosecuted.
+
+
+“Some had to follow-up with police themselves to learn that their case was dropped,” Zhang said.
+
+
+Until March, around 10,000 people were arrested due to their involvement in the protests. Among them, more than 6,000 have yet to be prosecuted.
+
+
+Police commissioner Raymond Siu Chak-yee said in January that the force is under the final stages of investigation, and would announce in February whether the offenders – including the 900 arrested over the Polytechnic University protest – will be prosecuted, continue to be investigated, or canceled.
+
+
+Police have not yet released the information.
+
+
+charlie.chun@singtaonewscorp.com
+
+
+
+
+# Tourism
+
+## **HK’s tourism headaches must be fixed**
+
+Mary Ma
+
+UPDATED: 17 MAY 2023 12:00 AM
+
+That a 2,000-member corporate group has come to Hong Kong for sightseeing and a conference is of symbolic significance, showing border crossings between the mainland and the SAR have fully normalized after months of easing.
+
+
+Such a size would have been impossible during the Covid pandemic.
+
+
+It is hopeful that, after mainland authorities fully normalized exit and entry services at all immigration control points on Monday, increased convenience will lead to more mainlanders – including large groups like the one that arrived yesterday – coming to Hong Kong for holidays.
+
+
+The mainland has done its part by opening the gates and it is up to Hong Kong to get the most out of it.
+
+
+The question is: is the city ready?
+
+
+More than three years of pandemic have devastated the manpower structure of the tourism sector and associated fields, including hotels and transportation. Labor shortage is a common issue facing the industry’s management.
+
+
+Due to periodic lockdowns during the period, many people previously working as guides or escorts have changed to other fields to make a living.
+
+
+Once established elsewhere, it is difficult to persuade them to return to their previous jobs unless they are convinced they can earn more from switching back.
+
+
+By the same token, many coach drivers made redundant during the pandemic have switched to other sectors.
+
+
+They would be happy to drive coaches again if they were confident they could take earn more doing the job.
+
+
+Hoteliers face a similar headache.
+
+
+The pandemic has ripped open a manpower hole in those sectors. Unless the shortage is replenished, it will continue to undermine the SAR’s ability to sustain the recovery in local tourism.
+
+
+Can the shortage be overcome?
+
+
+Certainly – if the industry veterans are convinced they can make a better living out of tourism-related duties. Otherwise, trade unionists – including those in the Federation of Trade Unions – will have to accept a need to bring in foreign workers.
+
+
+Yet, overcoming the manpower shortage is only the beginning. If local tourism officials and operators fail to better understand what mainland visitors want, they could also hit the wall with the wrong prescription.
+
+
+To sustain the recovery will require the industry to accept that their clientele is changing – that was evident in the May Day “golden week” and during the several “golden periods” pior to it.
+
+
+Mainlanders have demonstrated a preference that is different from that of the past.
+
+
+It is not that they have stopped buying luxury personal accessories, but they can readily do so on official websites or in mainland flagship stores.
+
+
+Rather, they have shown a desire to acquire a taste for the small and special things that Hong Kong has to offer.
+
+
+For example,the 2,000-member group opted for a feast of poon choi in Sha Tau Kok instead of a buffet at a five-star hotel.
+
+
+Amid reports of pay cuts and increased joblessness among the young, latest mainland economic data were weaker than expected. Our tourism sector has to plan ahead against this macro-economic backdrop.
+
+
+The city needs to focus on its unique features and build on them.
+
