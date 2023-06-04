@@ -19,4 +19,4 @@ This page holds a list of key machine learning terms and their definitions.
 
 **Supervised machine learning**, which works with labeled data, and **unsupervised machine learning**, which works with unlabeled data.
 
-Supervised machine learning falls into two categories - *classification* and *regression*.
+Supervised machine learning falls into two categories - *classification* and *regression*. Classification algorithms predict the discrete classes (categories) to which samples belong. Regression models predict a continuous output.
