@@ -1,0 +1,22 @@
+---
+title: Key Terms in Machine Learning
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+    theme: cerulean
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This page holds a list of key machine learning terms and their definitions.
+
+# Types of Machine Learning
+
+**Supervised machine learning**, which works with labeled data, and **unsupervised machine learning**, which works with unlabeled data.
+
+Supervised machine learning falls into two categories - *classification* and *regression*.
