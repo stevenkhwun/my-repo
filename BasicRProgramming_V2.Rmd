@@ -1,13 +1,14 @@
 ---
-title: ""
+title: "My document"
 date: "`r Sys.Date()`"
+author: Steven Wun
 output:
-  pdf_document: default
-  html_document:
-    number_sections: true
-  word_document: default
   rmdformats::material:
     highlight: kate
+  pdf_document: default
+  word_document: default
+  html_document:
+    number_sections: true
 ---
 
 ```{r setup, include=FALSE}
