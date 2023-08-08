@@ -1,5 +1,5 @@
 ---
-title: Key Terms in Machine Learning
+title: Machine Learning Terminology
 output:
   html_document:
     toc: true
@@ -21,11 +21,17 @@ This page holds a list of key machine learning terms and their definitions.
 
 Supervised machine learning falls into two categories - *classification* and *regression*. Classification algorithms predict the discrete classes (categories) to which samples belong. Regression models predict a continuous output.
 
-# Precision and Recall
+# Accuracy, Precision and Recall
+
+## Accuracy
+
+**Accuracy** is a statistical measure which is defined as the quotient of correct predictions (both True positives (TP) and True negatives (TN)) made by a classifier divided by the sum of all predictions made by the classifier, including False positves (FP) and False negatives (FN).
 
 ## Precision
 
 Precision answers the question: "**What proportion of positive predictins were actually positive?**"
+
+In other words, **Precision** is the ratio of the correctly identified positive cases to all the predicted positive cases, i.e. the correctly and the incorrectly cases predicted as positive. 
 
 When you are in a Precision mindset:
 
@@ -44,6 +50,8 @@ So even if this system recommended only one book and you liked it, this gives a 
 ## Recall
 
 Recall answers the question: "**What proportion of actual positives was identified correctly by the model?**"
+
+In other words, **Recall**, also known as *sensitivity*, is the ratio of the correctly identified positive cases to all the actual positive cases, which is the sum of the "False Negatives" and "True Positives".
 
 When you are in a Recall Mindset:
 
