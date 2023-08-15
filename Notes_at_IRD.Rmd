@@ -1,0 +1,25 @@
+---
+title: Notes at IRD
+output:
+  html_document:
+    number_sections: true
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# R Markdown
+
+**Run Python in R Markdown**
+
+[Python and R Markdown (psu-psychology.github.io)](https://psu-psychology.github.io/psy-525-reproducible-research-2020/how_to/python-in-rmarkdown.html)
+
+(Search "Do I need to install python to run python in R Markdown")
+
+**R Markdown**
+
+[R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
