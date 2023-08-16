@@ -23,3 +23,6 @@ knitr::opts_chunk$set(echo = TRUE)
 **R Markdown**
 
 [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+
+[Data Analysis Notes (jrnold.github.io)](https://jrnold.github.io/intro-methods-notes/ols-in-matrix-form.html)
