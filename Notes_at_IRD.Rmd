@@ -221,4 +221,121 @@ This article was amended on 19 March 2023 to correct an instance of a misspellin
 On the Origin of Time is published by Penguin Random House on 6 April
 
 
+# Some other websites
+
+[Basic Analysis: Introduction to Real Analysis (Online version)](https://www.jirka.org/ra/)
+
+
+R for Graduate Students
+[R for Graduate Students (bookdown.org)](https://bookdown.org/yih_huynh/Guide-to-R-Book/)
+
+[Python for Data Analysis, 3E](https://wesmckinney.com/book/)
+
+Data at GitHub
+wesm/pydata-book: Materials and IPython notebooks for "Python for Data Analysis" by Wes McKinney, published by O'Reilly Media (github.com)
+
+
+Python and R Markdown
+
+[Python and R Markdown (psu-psychology.github.io)](https://psu-psychology.github.io/psy-525-reproducible-research-2020/how_to/python-in-rmarkdown.html#purpose)
+
+(Search “Do I need to install python to run python in R markdown”)
+
+R Markdown Cookbook
+[R Markdown Cookbook (bookdown.org)](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+[Installing Python 3 and Python Packages | Codecademy](https://www.codecademy.com/article/install-python3)
+
+Introduction to R Markdown
+[Introduction to R Markdown (rstudio.com)](https://rmarkdown.rstudio.com/articles_intro.html)
+
+[3.3 PDF document | R Markdown: The Definitive Guide (bookdown.org)](https://bookdown.org/yihui/rmarkdown/pdf-document.html)
+
+LaTeX
+
+Search “en.wikibooks.org” on Google.
+Search “Latex” on “en.wikibooks.org”
+
+
+Personal
+
+jw – Andy Wun (wordpress.com) 
+https://andywun.wordpress.com/
+
+Log In — WordPress.com
+https://wordpress.com/log-in/
+andywun@hotmail.com
+Loklok.717
+
+
+
+https://andywun.wordpress.com/2020/01/17/jw/
+
+
+[Ping Yu](https://pweb.fbe.hku.hk/~pingyu/)
+[Teaching](https://pweb.fbe.hku.hk/~pingyu/teaching.htm)
+
+
+[Kevin Sheppard](https://www.kevinsheppard.com/)
+
+
+Article from Medium
+
+towards data science
+5 Books That Will Teach You the Math Behind Machine Learning
+
+1.	Linear Algebra Done Right by Sheldon Axler
+2.	Probability: For the Enthusiastic Beginner by David Morin
+3.	Multivariate Calculus by Denis Auroux (from MIT OpenCourseWare)
+4.	Grokking Deep Learning by Andrew Trask
+5.	Deep Learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville (free on the web)
+
+Google search
+How is Machine Learning Useful for Macroeconomic
+
+
+Python resources
+
+[Introduction to Python for Econometrics, Statistics and Data Analysis - Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials (freecomputerbooks.com)](https://freecomputerbooks.com/Introduction-to-Python-for-Econometrics-Statistics-and-Numerical-Analysis.html)
+
+[ceR-2 (pdx.edu)](http://web.pdx.edu/~crkl/ceR/)
+
+[Econometrics Books](https://www.econometricsbooks.com/)
+
+Online Text and Notes in Advanced Econometrics and Quantitative Techniques | The Economics Network
+https://www.economicsnetwork.ac.uk/teaching/Online Text and Notes/Advanced Econometrics and Quantitative Techniques
+
+[Online Text and Notes in Advanced Econometrics and Quantitative Techniques | The Economics Network](https://www.economicsnetwork.ac.uk/teaching/Online%20Text%20and%20Notes/Advanced%20Econometrics%20and%20Quantitative%20Techniques)
+
+
+
+[Mathematical Economics by Alexis Akira Toda](https://alexisakira.github.io/teaching/)
+
+
+How to Develop Ridge Regression Models in Python
+
+[How to Develop Ridge Regression Models in Python (machinelearningmastery.com)](https://machinelearningmastery.com/ridge-regression-with-python/)
+
+
+Machine Learning: An Applied Econometric Approach
+
+Sendhil Mullainathan
+Jann Spiess
+
+JOURNAL OF ECONOMIC PERSPECTIVES
+VOL. 31, NO. 2, SPRING 2017
+(pp. 87-106)
+
+[Machine Learning: An Applied Econometric Approach - American Economic Association (aeaweb.org)](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87)
+
+Citation
+Mullainathan, Sendhil, and Jann Spiess. 2017. "Machine Learning: An Applied Econometric Approach." Journal of Economic Perspectives, 31 (2): 87-106.
+
+Datasets and codes are available at the above website.
+
+Keyword:
+[Machine Learning and Econometrics](https://towardsdatascience.com/from-econometrics-to-machine-learning-ee182f3a45d7)
+
+
+
 
