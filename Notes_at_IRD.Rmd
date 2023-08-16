@@ -170,3 +170,17 @@ The passion for data science can partially be shown through your personal projec
 8.	Don't wait until "you know enough"		
 		
 Let's not dive into the regret of not starting earlier, and the next best time to start is now.		
+
+
+# keywords
+[15 Projects on Machine Learning Applications in Finance](https://www.projectpro.io/article/projects-on-machine-learning-applications-in-finance/510)
+
+[Machine Learning and the Accounting Profession: Is It a Perfect Match or the End of the Accountant?]( https://www.accountingedu.org/machine-learning-and-the-accounting-profession-is-it-a-perfect-match-or-the-end-of-the-accountant/)
+
+16 Artificial Intelligence projects from Deloitte Practical cases 
+
+Artificial intelligence and the future of accountancy - ICAEW
+
+How does it measure up? - I Financial Reporting Council
+
+Machine learning in accounting
