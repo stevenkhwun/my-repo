@@ -184,3 +184,12 @@ Artificial intelligence and the future of accountancy - ICAEW
 How does it measure up? - I Financial Reporting Council
 
 Machine learning in accounting
+
+# Some websites
+
+[An Introduction to Statistical Learning with the tidyverse and tidymodels](https://bookdown.org/taylordunn/islr-tidy-1655226885741/introduction.html#this-book)
+
+[重新開始記一記底啲野 – 記日仔tat-tat (wordpress.com)](https://tatkin.wordpress.com/2015/09/08/%E9%87%8D%E6%96%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E4%B8%80%E8%A8%98%E5%BA%95%E5%95%B2%E9%87%8E/)
+
+
+
