@@ -26,3 +26,114 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 [Data Analysis Notes (jrnold.github.io)](https://jrnold.github.io/intro-methods-notes/ols-in-matrix-form.html)
+
+
+# 42 Statistician Interview Questions (With Answers)
+Stephen Baraka
+Updated March 7, 2023
+Stephen Baraka is a seasoned statistics writer focused on explaining complex statistical theories.
+
+When you're applying for a job as a statistician, you can prepare for an interview by reviewing potential questions. During an interview, a hiring manager may inquire about your personality, work experience and other factors to assess your employability. Understanding how to answer these questions can help you distinguish yourself from other candidates.
+
+In this article, we discuss 42 statistician interview questions and provide some example answers to help you understand what employers might expect.
+
+General statistician interview questions
+
+Hiring managers may ask some general statistician interview questions during an interview. They may ask about your personality, goals and other factors to learn how you may fit with the company if you start working there. During this portion of the interview, a hiring manager might test your ability to communicate statistical concepts to non-technical parties. Here are 10 general questions you might expect:
+
+1. What influenced you to apply to our company?
+2. What are your career goals, specifically with our company?
+3. What motivates you to excel in your work?
+4. What's your communication style?
+5. What do you think are your greatest strengths?
+6. Can you receive criticism well?
+7. Do you consider yourself an effective team member?
+8. How would you describe a statistician's role?
+9. Of which career accomplishments are you most proud?
+10. How has your job influenced your lifestyle?
+
+
+Interview questions about experience and background
+Questions about your experience and background can help a hiring manager learn about your professional qualifications. They may ask you about your education, previous work experience and any certifications or recognition you may have received. Your response to this question helps interviewers understand your skills, knowledge and abilities in relation to the job requirements. Here are 10 questions about experience and background:
+
+11. Have you received a bachelor's degree in statistics, economics, mathematics or a related field?
+12. Have you completed a master's degree?
+13. Where did you receive your education?
+14. How long have you worked in statistics?
+15. What companies have you worked for previously?
+16. What duties did you have in your former workplaces?
+17. With what data analysis software are you familiar?
+18. Do you have experience in designing polls and analyzing their results?
+19. Do you have experience leading a team of statisticians and related employees?
+20. Is your experience primarily corporate, or have you worked with government agencies?
+
+In-depth interview questions
+Statistics is a field that often requires deep knowledge of data collection and analysis. Interviewers may want to explore your knowledge of the more technical aspects of being a statistician. These questions are typically more technical in nature and are meant to assess your ability to perform complex statistical analysis and to make informed decisions based on the results. Here are some examples of in-depth statistics interview questions you can expect:
+
+21. Can you explain the difference between experimental and observational data in statistics?
+22. When faced with a problem, how would you determine what data you need to solve it?
+23. How would you handle missing data?
+24. How would you address outliers in a dataset?
+25. What are the different biases that statisticians encounter, and how have you dealt with them in your work?
+26. What are the meanings of "median" and "mean" in statistics?
+27. What is the Pareto principle?
+28. Can you define standard variation?
+29. How do you determine an appropriate sample size?
+30. How do statisticians use quartiles to analyze data?
+31. What is the margin of error?
+32. Are there any statistical methods you would like to see implemented at our company?
+33. Could you describe a data collection strategy you have implemented in the past?
+34. What was your most successful project as a statistician?
+
+
+Interview questions and answers
+These eight example questions and answers can help you prepare for a data science interview or another position that uses statistics:
+
+35. What made you choose a career as a statistician?
+This question can help interviewers discover what your job means to you and whether you have a genuine passion for your work. In your answer, you can provide more information on your personal and professional background. This may help create a more personal connection with interviewers. You can describe what interests led you to a career in statistics, how you pursued your career and what makes it rewarding to you.
+
+Example: "I first developed an interest in statistics during my time in college when I noticed that so much of the information we studied came from statistical methods. I've always been interested in discovering what makes things work or behave how they do, and I noticed that statistics could give me an opportunity to discover that every day in my work. I switched my major from political science to statistics soon after, and I got my first internship after I graduated. My favorite thing about working in this field is that I am never bored and always learn something new."
+
+
+36. How do you handle conflict in a professional setting?
+As a statistician, you may collaborate with fellow employees regularly. A hiring manager may ask about your ability to handle conflict in a professional and polite way so you can overcome challenges and resume productivity in the workplace. In your response, reflect on a real-life scenario and explain how you would apply what you learned from it to future instances of conflict.
+
+Example: "I try to approach disagreement as an opportunity to learn. I've had past professional disagreements based on method and data interpretation. In one case, I had a colleague who disagreed with me over how we collected data on a certain group of consumers. The first thing I did was listen to their case privately. After hearing their explanation, I realized their method would be better for that particular case. We continued the project using their method and produced an excellent analysis. In future scenarios, I always consider multiple methods before deciding on one for the current project."
+
+
+37. Can you tell us about a particularly challenging project you worked on in your previous job?
+Hiring managers often ask this question to determine your ability to handle challenging projects. They may want to learn about your experience working on complex projects so they know if you can solve problems independently. In your response, provide an example of a recent project that you completed. Highlight your problem-solving skills and outline your approach to challenging projects.
+
+Example: “One challenging project I worked on involved analyzing large amounts of customer data to identify patterns and trends that my employer would use to improve customer satisfaction. The data was complex and required a significant amount of cleaning and pre-processing before I applied it for analysis. The challenge was to find the best way to effectively analyze the data and extract meaningful insights that could drive business decisions. I used various statistical techniques, including regression analysis and clustering, to analyze the data and present my findings in a clear and concise manner to the company's leaders."
+
+
+38. How do you stay current with the latest statistical methods and techniques?
+Answers to this question may show your dedication to continuous learning and your ability to stay up-to-date with the latest developments in the field of statistics. The hiring manager wants to understand our approach to continuing education and your willingness to keep up with the latest advancements in statistics. In your response, provide several ways that you've updated your education, whether it be pursuing a new certification or reading materials from industry leaders.
+
+Example: “I stay current with the latest statistical methods and techniques by regularly reading industry publications and attending conferences and workshops. I also participate in online forums and engage in discussions with other employees in the field to gain new insights and perspectives. I also like to experiment with new techniques and tools on personal projects to stay familiar with the latest advancements and see how they work in a practical setting.”
+
+
+39. How would you define selection bias?
+Employers may want to explore your understanding of statistical concepts and your ability to handle bias in your work. In your answer, provide a brief definition of selection bias. You may also state that you always strive to collect unbiased data to maintain your studies' integrity.
+
+Example: "Selection bias refers to instances where statisticians choose to analyze non-randomized data. There are many kinds of selection bias, like sampling bias, susceptibility bias, volunteer bias and others, that impede the proper interpretation of data. It has always been important to me to conduct studies in a randomized and unbiased way to provide people with an accurate representation of the current problem or situation."
+
+
+40. When would you use median instead of mean in statistics?
+This question can help interviewers further assess your knowledge of statistical concepts and methods. It's helpful to be specific in your answer to show your deep and practical understanding of statistics in the real world. You may also provide an example of when to use the mean instead of the median to create a more thorough answer.
+
+Example: "There are cases in statistical analysis in which the median may provide a better understanding of the data than the mean. I've used median instead of mean when dealing with datasets that have many outliers. In these cases, the median can provide a better idea of a data trend without the distortion that outliers might cause in the average. If the data follows a symmetric distribution, it's better to use the mean instead of the median."
+
+
+41. Can you explain the concept of hypothesis testing?
+This question assesses your understanding of hypothesis testing, which is a fundamental concept in statistical analysis. The interviewer wants to understand your ability to explain complex statistical concepts and your practical knowledge of hypothesis testing. Provide a brief definition and explain how you'd use it in statistical analysis. 
+
+Example: “Hypothesis testing is a statistical method that determines whether an observed result is statistically significant. It involves formulating a null hypothesis that represents the default assumption and an alternative hypothesis that represents the result of interest. A statistician then calculates the test statistic and compares it to a critical value to determine whether to reject or fail to reject the null hypothesis.”
+
+42. How do you select the appropriate regression model for a given data set?
+This question assesses your knowledge of regression analysis and your ability to select the appropriate model for a given data set. The interviewer wants to understand your ability to make informed decisions based on the characteristics of the data and the goals of the analysis. Offer insight into your process for choosing the regression model that's suitable for your current data set.
+
+Example: “The selection of the appropriate regression model depends on several factors, including the number of independent variables, the relationship between the dependent and independent variables and the presence of outliers or collinearity. Common techniques for model selection include stepwise regression, best subsets regression and regularization methods such as lasso regression. I can select the appropriate model based on the goals of the analysis, the assumptions of the model and the results of model diagnostic tests.”
+
+
+[Source](https://www.indeed.com/career-advice/interviewing/statistician-interview-questions)
