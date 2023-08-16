@@ -137,3 +137,36 @@ Example: “The selection of the appropriate regression model depends on several
 
 
 [Source](https://www.indeed.com/career-advice/interviewing/statistician-interview-questions)
+
+
+# 8 hacks that helped me get my first Data Science job (without IT experience or degree in Computer Science)		
+An article from the Medium		
+		
+1.	Personal Projects are super important!		
+	communicating the results in a blog post or a dashboard	
+	To show that:	you can program
+				deliver a project/build a model
+				communicate the results
+	it gives you a conversation point for the interview	
+	mention it in a CV	
+		
+2.	Have a portfolio showcasing your personal projects		
+	a well documented Github repository	
+	personal websit using "Jekyll"	
+		
+3.	Tailor your CV for the positions you really want		
+	Try prepare a CV in "LaTex"	
+		
+4.	Show you're passionate about Data Science		
+The passion for data science can partially be shown through your personal projects	
+	Consider writing blog posts about Data Science	
+		
+5.	Know which field you'd like to work in		
+		
+6.	Find something in your work experience / degree which can be linked to an important Data Science skill		
+		
+7.	Network, network, network		
+		
+8.	Don't wait until "you know enough"		
+		
+Let's not dive into the regret of not starting earlier, and the next best time to start is now.		
