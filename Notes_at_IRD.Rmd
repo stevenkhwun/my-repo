@@ -336,6 +336,7 @@ Datasets and codes are available at the above website.
 Keyword:
 [Machine Learning and Econometrics](https://towardsdatascience.com/from-econometrics-to-machine-learning-ee182f3a45d7)
 
-
-
-
+# Free Online Books
+## [Free SAS ebook](https://support.sas.com/en/books/free-books.html)
+## [FreeComputerBooks.com](https://freecomputerbooks.com/)
+## [Resources for Economics PhD Students](https://econ.lse.ac.uk/staff/spischke/phds/)
