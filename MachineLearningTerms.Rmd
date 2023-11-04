@@ -1,19 +1,21 @@
 ---
 title: Machine Learning Terminology
 output:
+  pdf_document: default
+  word_document: default
   html_document:
     toc: true
     number_sections: true
     toc_float: true
     theme: cerulean
-  word_document: default
-  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 This page holds a list of key machine learning terms and their definitions.
+
+The name and location of the markdown file is "\\my-repo\\MachineLearningTerms.Rmd".
 
 # Types of Machine Learning
 
@@ -29,7 +31,7 @@ Supervised machine learning falls into two categories - *classification* and *re
 
 ## Precision
 
-Precision answers the question: "**What proportion of positive predictins were actually positive?**"
+Precision answers the question: "**What proportion of positive predictions were actually positive?**"
 
 In other words, **Precision** is the ratio of the correctly identified positive cases to all the predicted positive cases, i.e. the correctly and the incorrectly cases predicted as positive. 
 
