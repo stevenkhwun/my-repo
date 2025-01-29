@@ -13,6 +13,8 @@ output:
 
 This is the introduction.
 
+When the code `code_folding: show` is added to the YAML Header, he code is defaulted "show".
+
 ```{r}
 x <- 2
 y <- 3
@@ -23,3 +25,7 @@ x + y
 # Preliminary findings
 
 This is the preliminary findings.
+
+# Add a further section
+
+Check that whether this section is added at the TOC.

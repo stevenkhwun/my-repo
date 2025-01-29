@@ -13,6 +13,8 @@ output:
 
 This is the introduction.
 
+When the code `code_folding: hide` is added to the YAML Header, he code is defaulted "hide".
+
 ```{r}
 x <- 2
 y <- 3
