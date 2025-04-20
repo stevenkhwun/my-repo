@@ -24,6 +24,8 @@
 <h3>Evaluating and Validating Machine Learning Models</h3>
 
 * <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/15_Evaluating Classification Models.ipynb">Evaluating Classification Models</a>
+* <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/16_Evaluating_random_forest.ipynb">Evaluating Random Forest Performance</a>
+
 
   
 <h1>Books for Machine Learning</h1>
