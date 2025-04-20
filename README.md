@@ -25,6 +25,7 @@
 
 * <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/15_Evaluating Classification Models.ipynb">Evaluating Classification Models</a>
 * <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/16_Evaluating_random_forest.ipynb">Evaluating Random Forest Performance</a>
+* <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/17_Evaluating_k-means_clustering.ipynb">Evaluating k-means clustering</a>
 
 
   
