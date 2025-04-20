@@ -19,5 +19,6 @@
   <p><a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/15_Evaluating Classification Models.ipynb">Evaluating Classification Models</a></p>
 
   
-  <h1>Books</h1>
-  <p><a href="https://stevenkhwun.github.io/Test/Books/ISLP_website-compressed.pdf">An Introduction to Statistical Learning with Applications in Python</a></p>
+<h1>Books for Machine Learning</h1>
+
+* <a href="https://stevenkhwun.github.io/Test/Books/ISLP_website-compressed.pdf">An Introduction to Statistical Learning with Applications in Python</a>
