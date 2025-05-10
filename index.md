@@ -30,6 +30,7 @@
 <h3>Best Practices for Ensuring Model Generalizability</h3>
 
 * <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/18_Regularization_in_LinearRegression.ipynb">Regularization in Linear Regression</a>
+* <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/19_ML_Pipelines_and_GridSearchCV.ipynb">Machine Learning Pipelines and GridSearchCV</a>
 
 
 
