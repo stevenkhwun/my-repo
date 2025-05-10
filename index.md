@@ -33,6 +33,9 @@
 * <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/19_ML_Pipelines_and_GridSearchCV.ipynb">Machine Learning Pipelines and GridSearchCV</a>
 
 
+<h3>Final Project</h3>
+
+* <a href="https://nbviewer.org/github/stevenkhwun/P4DS/blob/main/IBM_Python_Data_Science/Machine_Learning_with_Python/20_Practice-Project.ipynb">Practice Project: Titanic Survival Prediction</a>
 
   
 <h1>Books for Machine Learning</h1>
